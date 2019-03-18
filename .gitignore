@@ -3,3 +3,8 @@
 ################################################################################
 
 /CoinTracker/CoinTracker/bin/Debug/netstandard2.0
+/CoinTracker/CoinTracker/obj
+/.vs/CoinTracker/v16
+/CoinTracker/CoinTracker.Android/bin/Debug
+/CoinTracker/CoinTracker.Android/obj
+/CoinTracker/CoinTracker.iOS/obj
