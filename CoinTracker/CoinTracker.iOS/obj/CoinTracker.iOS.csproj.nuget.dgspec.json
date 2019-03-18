@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker.iOS\\CoinTracker.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker.iOS\\CoinTracker.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker.iOS\\CoinTracker.iOS.csproj",
+        "projectName": "CoinTracker.iOS",
+        "projectPath": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker.iOS\\CoinTracker.iOS.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker\\CoinTracker.csproj": {
+                "projectPath": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker\\CoinTracker.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.220655, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker\\CoinTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker\\CoinTracker.csproj",
+        "projectName": "CoinTracker",
+        "projectPath": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker\\CoinTracker.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anthony\\Source\\Repos\\CoinTracker\\CoinTracker\\CoinTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.220655, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
